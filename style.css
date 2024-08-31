@@ -225,3 +225,160 @@ footer {
     text-align: center;
     background-color: rgb(0, 0, 0);
   }
+
+@media (max-width:600px) {
+    .container{
+        display: flex;
+        margin-left: 30px;
+        margin-right: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+        /* background-color: white; */
+    
+    }
+    #hero{
+        justify-content: center;
+        align-items: center;
+    }
+    .vd{
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+    }
+    .img{
+        height: 3vh;
+        margin-top: 1.5vw;
+        /* margin-top: 25px; */
+    }
+    .nav-links {
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        /* padding: 30px; */
+        gap: 10px;
+        float: right;
+        color: white; /* This affects only the list container, not the links */
+        transition: color 0.5s ease;
+    }
+    .nav-links a {
+        color: white; /* Initial color for the links */
+        text-decoration: none;
+        font-size: 15px;
+        transition: color 0.4s ease; /* Smooth color transition on hover */
+    }
+    
+    .nav-links a:hover {
+        color: #ed1e1e; /* Color change on hover */
+    }
+    #about p{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        word-spacing: 0.1rem;
+        font-size: 20px;
+        color: rgb(134, 137, 137);
+        line-height: 1.5rem;
+    }
+    .about .container{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: inline;
+    }
+
+    
+
+.faq {
+    padding: 50px 20px;
+background-color: black;
+}
+.faq .container{
+    /* gap: 3rem; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.faq h2 {
+    text-align: center;
+    /* margin-bottom: 20px; */
+    
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-item h4 {
+    /* margin-bottom: 10px; */
+    color: rgb(222, 24, 24);
+    /* color: white; */
+}
+.faq-item p{
+    max-width: 300px;
+    color: #9b9898d3;
+}
+
+footer {
+    background-color: rgb(152, 152, 152);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin: none;
+    
+
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(0, 0, 0); */
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(152, 152, 152);
+
+    
+  }
+  
+  .social-icons  li{
+    display: inline-block;
+    margin: 1rem;
+    /* margin: 0 10px; */
+  }
+  
+  
+  .social-icons a img {
+    width: 30px; /* Adjust size as needed */
+    height: auto;
+    padding: 6px;
+    border-radius: 3px;
+    transition: transform 0.3s;
+    /* background-color: rgb(205, 69, 69); */
+    background-color: rgb(152, 152, 152);
+
+    /* margin: 0.1rem; */
+    margin: none;
+    border: 2px solid black;
+
+
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+  .social-icons a{
+    background-color: rgb(152, 152, 152);
+    /* margin: none; */
+    /* border: 2px solid black; */
+
+  }
+  #media h2{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+  }
+}
